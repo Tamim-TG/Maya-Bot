@@ -26,4 +26,4 @@ TRIGGERS = [
 ]
 
 MAX_REPLY_LINES = 10
-MODEL = "gemini-3.6-flash"
+MODEL = "gemini-3.1-flash-lite"
