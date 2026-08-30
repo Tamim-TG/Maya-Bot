@@ -1,2 +1,1 @@
-# TODO: Modify this Procfile to fit your needs
-web: gunicorn app:app
+web: gunicorn -k uvicorn.workers.UvicornWorker app:app
